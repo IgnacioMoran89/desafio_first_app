@@ -11,9 +11,9 @@
 
   <body>
     <nav class="navbar-inverse">
-      <a href= "one" >Page One</a>
-      <a href= "two" >Page Two</a>
-      <a href= "three" >Page Three</a>
+      <%= link_to 'Home', pages_one_path %>
+      <%= link_to 'Page Two', pages_two_path %>
+      <%= link_to 'Page Three', pages_three_path %>
     </nav>
     <%= yield %>
   </body>
